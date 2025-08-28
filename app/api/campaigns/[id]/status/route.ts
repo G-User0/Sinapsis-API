@@ -14,9 +14,12 @@ interface CampaignResult {
   final_hour: string | null
 }
 
-export async function PUT(request: NextRequest, { params }: { params: { id: string } }) {
+// export async function PUT(request: NextRequest, { params }: { params: { id: string } }) {
+export async function PUT(request: NextRequest, context: { params: { id: string } }) {
+
   try {
-    const campaignId = Number.parseInt(params.id)
+    // const campaignId = Number.parseInt(params.id)
+    const campaignId = Number.parseInt(context.params.id)
 
     if (isNaN(campaignId)) {
       return NextResponse.json({ success: false, message: "ID de campaña inválido" }, { status: 400 })
