@@ -52,13 +52,11 @@ cp .env.example .env.local
 
 Crear archivo `.env.local`:
 
-\`\`\`
 - DB_HOST=localhost
 - DB_USER=root
 - DB_PASSWORD=tu_password
 - DB_NAME=test_db
 - DB_PORT=3306
-\`\`\`
 
 
 
