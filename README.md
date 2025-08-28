@@ -35,14 +35,14 @@ sinapsis-api/
 ## Instalación
 
 \`\`\`bash
-# Clonar repositorio
+### Clonar repositorio
 git clone <repo-url>
 cd sinapsis-api
 
-# Instalar dependencias
+### Instalar dependencias
 npm install
 
-# Configurar variables de entorno
+### Configurar variables de entorno
 cp .env.example .env.local
 \`\`\`
 
@@ -87,13 +87,13 @@ Actualmente el proyecto utiliza dos archivos de configuración de base de datos:
 ## Comandos
 
 \`\`\`bash
-# Desarrollo completo (backend + frontend)
+### Desarrollo completo (backend + frontend)
 npm run dev:full
 
-# Solo backend (puerto 3000)
+### Solo backend (puerto 3000)
 npm run dev:backend
 
-# Solo frontend (puerto 3001)
+### Solo frontend (puerto 3001)
 npm run dev:frontend
 \`\`\`
 
@@ -101,17 +101,17 @@ npm run dev:frontend
 
 ## Endpoints API
 
-# Endpoint 01
+### Endpoint 01
 - Método: `PUT`  
 - URL: `http://localhost:3000/api/campaigns/1/totals`  
 - Descripción: Calcula y actualiza los totales de la campaña
 
-# Endpoint 02
+### Endpoint 02
 - Método: `PUT`
 - URL: `http://localhost:3000/api/campaigns/1/status`  
 - Descripción: Actualiza el estado de la campaña y la hora final
 
-# Endpoint 03
+### Endpoint 03
 - Método: `GET`  
 - URL: `http://localhost:3000/api/reports/clients-success?start_date=2024-01-01&end_date=2024-12-31`  
 - Descripción: Genera un reporte de éxito de clientes
@@ -140,4 +140,5 @@ Acceder a `http://localhost:3001` para probar los endpoints visualmente con form
 ## Base de Datos
 
 Importar el archivo `db.sql` en MySQL Workbench para crear las tablas y datos de prueba.
+
 # Sinapsis-API
