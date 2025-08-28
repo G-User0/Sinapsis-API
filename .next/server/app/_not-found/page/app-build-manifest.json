@@ -1,0 +1,19 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/834d2_640c2066._.js",
+      "static/chunks/OneDrive_Desktop_sinapsis-ap_src_components_theme-provider_tsx_1b2a2f9c._.js",
+      "static/chunks/OneDrive_Desktop_sinapsis-ap_app_globals_b249ffa4.css",
+      "static/chunks/OneDrive_Desktop_sinapsis-ap_app_layout_tsx_a5103f2b._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_12353c5e._.js",
+      "static/chunks/834d2_next_dist_compiled_react-dom_4973a627._.js",
+      "static/chunks/834d2_next_dist_compiled_next-devtools_index_36506895.js",
+      "static/chunks/834d2_next_dist_compiled_30c94e5f._.js",
+      "static/chunks/834d2_next_dist_client_d6d78df0._.js",
+      "static/chunks/834d2_next_dist_28e8baf6._.js",
+      "static/chunks/834d2_@swc_helpers_cjs_db0d7440._.js",
+      "static/chunks/OneDrive_Desktop_sinapsis-ap_a0ff3932._.js",
+      "static/chunks/turbopack-OneDrive_Desktop_sinapsis-ap_118d631e._.js"
+    ]
+  }
+}
