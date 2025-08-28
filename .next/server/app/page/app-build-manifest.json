@@ -1,23 +1,23 @@
 {
   "pages": {
     "/page": [
-      "static/chunks/834d2_640c2066._.js",
-      "static/chunks/OneDrive_Desktop_sinapsis-ap_src_components_theme-provider_tsx_1b2a2f9c._.js",
-      "static/chunks/OneDrive_Desktop_sinapsis-ap_app_globals_b249ffa4.css",
-      "static/chunks/OneDrive_Desktop_sinapsis-ap_app_layout_tsx_a5103f2b._.js",
-      "static/chunks/834d2_next_dist_client_components_builtin_global-error_0f6f7518.js",
-      "static/chunks/834d2_092c5bac._.js",
-      "static/chunks/OneDrive_Desktop_sinapsis-ap_5d80fd06._.js",
-      "static/chunks/OneDrive_Desktop_sinapsis-ap_app_page_tsx_0f6f7518._.js",
-      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_12353c5e._.js",
-      "static/chunks/834d2_next_dist_compiled_react-dom_4973a627._.js",
-      "static/chunks/834d2_next_dist_compiled_next-devtools_index_36506895.js",
-      "static/chunks/834d2_next_dist_compiled_30c94e5f._.js",
-      "static/chunks/834d2_next_dist_client_d6d78df0._.js",
-      "static/chunks/834d2_next_dist_28e8baf6._.js",
-      "static/chunks/834d2_@swc_helpers_cjs_db0d7440._.js",
-      "static/chunks/OneDrive_Desktop_sinapsis-ap_a0ff3932._.js",
-      "static/chunks/turbopack-OneDrive_Desktop_sinapsis-ap_118d631e._.js"
+      "static/chunks/668d5_d8504d00._.js",
+      "static/chunks/OneDrive_Desktop_sinapsis-api_src_components_theme-provider_tsx_532c1828._.js",
+      "static/chunks/OneDrive_Desktop_sinapsis-api_app_globals_b9a261c4.css",
+      "static/chunks/OneDrive_Desktop_sinapsis-api_app_layout_tsx_7c5c5689._.js",
+      "static/chunks/668d5_next_dist_client_components_builtin_global-error_af22467e.js",
+      "static/chunks/668d5_f53b02c8._.js",
+      "static/chunks/OneDrive_Desktop_sinapsis-api_0cd12f18._.js",
+      "static/chunks/OneDrive_Desktop_sinapsis-api_app_page_tsx_af22467e._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_b2b34187._.js",
+      "static/chunks/668d5_next_dist_compiled_react-dom_9ccc743b._.js",
+      "static/chunks/668d5_next_dist_compiled_next-devtools_index_88846285.js",
+      "static/chunks/668d5_next_dist_compiled_5f37426a._.js",
+      "static/chunks/668d5_next_dist_client_97dcfa01._.js",
+      "static/chunks/668d5_next_dist_43e67bee._.js",
+      "static/chunks/668d5_@swc_helpers_cjs_27a914ce._.js",
+      "static/chunks/OneDrive_Desktop_sinapsis-api_a0ff3932._.js",
+      "static/chunks/turbopack-OneDrive_Desktop_sinapsis-api_83c567e6._.js"
     ]
   }
 }

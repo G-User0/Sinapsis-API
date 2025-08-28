@@ -1,6 +1,12 @@
 import { type NextRequest, NextResponse } from "next/server"
 import { pool } from "@/lib/database"
 
+interface TotalsResult {
+  total_records: number
+  total_sent: number
+  total_error: number
+}
+
 export async function PUT(request: NextRequest, { params }: { params: { id: string } }) {
   try {
     const campaignId = Number.parseInt(params.id)
@@ -29,7 +35,7 @@ export async function PUT(request: NextRequest, { params }: { params: { id: stri
       [campaignId],
     )
 
-    const totals = Array.isArray(rows) ? (rows[0] as any) : {}
+    const totals = Array.isArray(rows) ? (rows[0] as TotalsResult) : { total_records: 0, total_sent: 0, total_error: 0 }
 
     // Actualizar la campaña con los totales calculados
     await pool.execute(
