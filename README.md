@@ -23,8 +23,8 @@ API REST para gestión de campañas de marketing por SMS con interfaz web de pru
 - │   ├── config/          # Configuración BD (CommonJS)
 - │   ├── controllers/     # Lógica de negocio
 - │   ├── routes/          # Rutas API
+- │   ├── lib/             # Utilidades compartidas
 - │   └── server.js        # Servidor principal
-- ├── lib/                 # Utilidades compartidas
 - │
 - ├──
 - └──
