@@ -14,20 +14,20 @@ API REST para gestión de campañas de marketing por SMS con interfaz web de pru
 ## Estructura del Proyecto
 
 \`\`\`
-sinapsis-api/
-├── app/                 # Frontend Next.js
-│   ├── api/             # API Routes (TypeScript)
-│   └── page.tsx         # Interfaz web
-│
-├── src/                 # Backend Express
-│   ├── config/          # Configuración BD (CommonJS)
-│   ├── controllers/     # Lógica de negocio
-│   ├── routes/          # Rutas API
-│   └── server.js        # Servidor principal
-├── lib/                 # Utilidades compartidas
-│
-├──
-└──
+- sinapsis-api/
+- ├── app/                 # Frontend Next.js
+- │   ├── api/             # API Routes (TypeScript)
+- │   └── page.tsx         # Interfaz web
+- │
+- ├── src/                 # Backend Express
+- │   ├── config/          # Configuración BD (CommonJS)
+- │   ├── controllers/     # Lógica de negocio
+- │   ├── routes/          # Rutas API
+- │   └── server.js        # Servidor principal
+- ├── lib/                 # Utilidades compartidas
+- │
+- ├──
+- └──
 \`\`\`
 
 

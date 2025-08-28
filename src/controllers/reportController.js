@@ -30,7 +30,7 @@ const getClientsSuccessReport = async (req, res) => {
       })
     }
 
-    // PASO 3: Consulta compleja con JOINs para obtener clientes y sus mensajes exitosos
+    // PASO 3: Consulta con JOINs para obtener clientes y sus mensajes exitosos
     // Esta consulta une 4 tablas: customers -> users -> campaigns -> messages
     const [results] = await db.pool.execute(
       `

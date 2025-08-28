@@ -9,6 +9,7 @@ const router = express.Router()
 // Importar controladores
 const reportController = require("../controllers/reportController")
 
+
 // ===== RUTAS DE REPORTES =====
 
 // GET /api/reports/clients-success?start_date=YYYY-MM-DD&end_date=YYYY-MM-DD

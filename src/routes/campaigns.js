@@ -6,8 +6,9 @@
 const express = require("express")
 const router = express.Router()
 
-// Importar controladores (los crearemos después)
+// Importar controladores
 const campaignController = require("../controllers/campaignController")
+
 
 // ===== RUTAS DE CAMPAÑAS =====
 

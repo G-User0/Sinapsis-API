@@ -1,5 +1,5 @@
 // Servidor principal de la aplicación
-// Este es el punto de entrada de nuestra API
+// Este es el punto de entrada de la API
 
 /* eslint-disable @typescript-eslint/no-require-imports */
 
@@ -10,13 +10,14 @@ require("dotenv").config()
 // Importar configuración de base de datos
 const { testConnection } = require("./config/database")
 
-// Importar rutas (las crearemos después)
+// Importar rutas
 const campaignRoutes = require("./routes/campaigns")
 const reportRoutes = require("./routes/reports")
 
 // Crear la aplicación Express
 const app = express()
 const PORT = process.env.PORT || 3000
+
 
 // ===== MIDDLEWARES =====
 // Middleware para parsear JSON en las peticiones
@@ -31,6 +32,7 @@ app.use((req, res, next) => {
   next()
 })
 
+
 // ===== RUTAS =====
 // Ruta de bienvenida para verificar que el servidor funciona
 app.get("/", (req, res) => {
@@ -44,6 +46,7 @@ app.get("/", (req, res) => {
     status: "active",
   })
 })
+
 
 // Registrar las rutas de la API
 app.use("/api/campaigns", campaignRoutes)
@@ -72,6 +75,7 @@ app.use((error, req, res, next) => {
   })
 })
 
+
 // ===== INICIAR SERVIDOR =====
 const startServer = async () => {
   try {
@@ -96,6 +100,7 @@ const startServer = async () => {
     process.exit(1)
   }
 }
+
 
 // Iniciar la aplicación
 startServer()
