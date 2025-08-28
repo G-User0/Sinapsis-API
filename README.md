@@ -13,7 +13,6 @@ API REST para gestión de campañas de marketing por SMS con interfaz web de pru
 
 ## Estructura del Proyecto
 
-\`\`\`
 - sinapsis-api/
 - ├── app/                 # Frontend Next.js
 - │   ├── api/             # API Routes (TypeScript)
@@ -30,13 +29,9 @@ API REST para gestión de campañas de marketing por SMS con interfaz web de pru
 - └──
 
 
-\`\`\`
-
-
 
 ## Instalación
 
-\`\`\`bash
 ### Clonar repositorio
 git clone <repo-url>
 cd sinapsis-api
@@ -46,7 +41,6 @@ npm install
 
 ### Configurar variables de entorno
 cp .env.example .env.local
-\`\`\`
 
 ## Configuración
 
@@ -87,7 +81,6 @@ Actualmente el proyecto utiliza dos archivos de configuración de base de datos:
 
 ## Comandos
 
-\`\`\`bash
 ### Desarrollo completo (backend + frontend)
 npm run dev:full
 
@@ -96,7 +89,6 @@ npm run dev:backend
 
 ### Solo frontend (puerto 3001)
 npm run dev:frontend
-\`\`\`
 
 
 
@@ -121,9 +113,8 @@ npm run dev:frontend
 
 ## Modelo de Datos
 
-\`\`\`sql
-customers -> users -> campaigns -> messages
-\`\`\`
+- customers -> users -> campaigns -> messages
+
 
 **Estados de mensajes:**
 - 1: Pendiente
