@@ -1,6 +1,8 @@
 // Servidor principal de la aplicación
 // Este es el punto de entrada de nuestra API
 
+/* eslint-disable @typescript-eslint/no-require-imports */
+
 const express = require("express")
 const cors = require("cors")
 require("dotenv").config()

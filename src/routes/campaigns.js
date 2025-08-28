@@ -1,5 +1,7 @@
 // Rutas relacionadas con las campañas
-// Aquí definimos los endpoints para manejar campañas
+// Endpoints para manejar campañas
+
+/* eslint-disable @typescript-eslint/no-require-imports */
 
 const express = require("express")
 const router = express.Router()

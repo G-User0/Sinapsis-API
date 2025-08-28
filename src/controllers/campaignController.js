@@ -1,6 +1,8 @@
 // Controlador para manejar la lógica de campañas
 // Aquí esta los endpoints PUT 
 
+/* eslint-disable @typescript-eslint/no-require-imports */
+
 const db = require("../config/database")
 
 // ===== ENDPOINT 1: CALCULAR TOTALES DE CAMPAÑA =====

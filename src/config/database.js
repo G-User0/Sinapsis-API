@@ -1,6 +1,8 @@
 // Configuración de la conexión a MySQL
 // Este archivo maneja toda la lógica de conexión a la base de datos
 
+/* eslint-disable @typescript-eslint/no-require-imports */
+
 const mysql = require("mysql2/promise")
 require("dotenv").config()
 

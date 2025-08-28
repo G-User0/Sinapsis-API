@@ -1,6 +1,8 @@
 // Controlador para manejar reportes
 // Aquí esta los endpoints GET 
 
+/* eslint-disable @typescript-eslint/no-require-imports */
+
 const db = require("../config/database")
 
 // ===== ENDPOINT 3: REPORTE DE CLIENTES CON MENSAJES EXTOSOS =====

@@ -1,5 +1,7 @@
 // Rutas relacionadas con reportes
-// Aquí definimos los endpoints para generar reportes
+// Endpoints para generar reportes
+
+/* eslint-disable @typescript-eslint/no-require-imports */
 
 const express = require("express")
 const router = express.Router()
