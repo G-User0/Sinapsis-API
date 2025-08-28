@@ -51,12 +51,12 @@ cp .env.example .env.local
 ## Configuración
 
 Crear archivo `.env.local`:
-\`\`\`env
-DB_HOST=localhost
-DB_USER=root
-DB_PASSWORD=tu_password
-DB_NAME=test_db
-DB_PORT=3306
+\`\`\`
+- DB_HOST=localhost
+- DB_USER=root
+- DB_PASSWORD=tu_password
+- DB_NAME=test_db
+- DB_PORT=3306
 \`\`\`
 
 
